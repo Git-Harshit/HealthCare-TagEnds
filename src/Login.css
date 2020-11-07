@@ -1,0 +1,33 @@
+.container{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 6cm;
+    text-align: center;
+    display: justify;
+}
+input[type=text]:focus {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .col-25 {
+    float: left;
+    width: 15%;
+    margin-top: 6px;
+    font-style: oblique;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 25%;
+    margin-top: 3px;
+    font-style: oblique;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .row{
+      margin-left: 10cm;
+  }
