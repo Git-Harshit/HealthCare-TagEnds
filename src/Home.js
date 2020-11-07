@@ -5,6 +5,7 @@ import Login from './Login';
 import { BrowserRouter as Router, Route ,Link} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import './Home.css';
+
 function Home() {
  
   const logout=()=>{
