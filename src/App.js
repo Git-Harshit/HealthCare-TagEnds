@@ -1,4 +1,5 @@
 import React from "react";
+// const React = require("react");
 import { Component } from 'react';
 import { render } from "@testing-library/react";
 import fire from './congif';
@@ -26,12 +27,12 @@ class App extends Component {
       console.log(user);
       if (user) {
         var displayName = user.displayName;
-    var email = user.email;
-    var emailVerified = user.emailVerified;
-    var photoURL = user.photoURL;
-    var isAnonymous = user.isAnonymous;
-    var uid = user.uid;
-    var providerData = user.providerData;
+        var email = user.email;
+        var emailVerified = user.emailVerified;
+        var photoURL = user.photoURL;
+        var isAnonymous = user.isAnonymous;
+        var uid = user.uid;
+        var providerData = user.providerData;
         // localStorage.setItem('user', user.uid);
       }
       else {
@@ -43,11 +44,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-      <div>
-        
-        <Route exact path="/" component={Login} />
-        <Route exact path="/home" component={Home} />
-      </div>
+        <div> 
+          <Route exact path="/" component={Login} />
+          <Route exact path="/home" component={Home} />
+        </div>
       </Router> 
  
     );
