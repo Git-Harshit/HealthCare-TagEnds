@@ -18,7 +18,7 @@ input[type=text]:focus {
     width: 15%;
     margin-top: 6px;
     font-style: oblique;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Open Sans", "Times New Roman", Times, serif;
   }
   
   .col-75 {
@@ -26,8 +26,8 @@ input[type=text]:focus {
     width: 25%;
     margin-top: 3px;
     font-style: oblique;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Open Sans", "Times New Roman", Times, serif;
   }
-  .row{
-      margin-left: 10cm;
+  .LoginForm {
+      margin-left: 4em;
   }

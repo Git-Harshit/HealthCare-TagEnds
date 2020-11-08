@@ -8,3 +8,21 @@ button{
     font-family: "Times New Roman", Times, serif;  
 }
 
+.Featured {
+    width: 100%;
+}
+
+.Featured .RecentPosts {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.RecentPosts .post-item {
+    box-shadow: 0 0 2px #555;
+}
+
+.RecentPosts .post-item:hover {
+    box-shadow: 0 0 4px #555;
+}
+

@@ -16,8 +16,8 @@ function Home() {
   
   function PostCard (props) {
     return (
-      <div className="card col-md-6 col-xl-3 p-2">
-        <div className="post-item">
+      <div className="col-md-6 col-xl-3 p-2">
+        <div className="card post-item">
           <h4 className="posts-title">{props.postTitle}</h4>
           <p className="posts-description">{props.details}</p>
         </div>
@@ -37,7 +37,7 @@ function Home() {
             <h3 className="PageHeading">Recent Posts</h3>
             <div className="PostsContainer row">
               <PostCard postTitle="Healthify your life, with right choices at the right time" details="With the right decision taken at the right time, your life can be upgraded for better." />
-              <PostCard postTitle="Do you really eat what you see?" details="The greedy, dishonest mak=rket can take your health at stake. Make sure that your food is edible, as well as beneficial with these tips." />
+              <PostCard postTitle="Do you really eat what you see?" details="The greedy, dishonest market can take your health at stake. Make sure that your food is edible, as well as beneficial with these tips." />
               <PostCard postTitle="Post 3" details="Know more ..." />
               <PostCard postTitle="Post 4" details="Know more ..." />
             </div>  

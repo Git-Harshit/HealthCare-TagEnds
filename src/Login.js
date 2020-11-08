@@ -46,7 +46,7 @@ class Login extends Component {
 
                 <form>
                     
-                        <div className="row">
+                        <div className="row LoginForm">
                             <div className="col-25">
                                 <label>E-mail</label></div>
                             <div className="col-75">
