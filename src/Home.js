@@ -3,7 +3,7 @@ import React, { Component,useState } from 'react';
 import { Button } from 'react-bootstrap';
 import Login from './Login';
 import { BrowserRouter as Router, Route ,Link} from "react-router-dom";
-import './css/bootstrap.css';
+// import './css/bootstrap.css';
 import './Home.css';
 
 function Home() {
