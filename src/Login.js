@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import Button from 'react-bootstrap/Button';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 import './Login.css';
 class Login extends Component {
     constructor(props) {
